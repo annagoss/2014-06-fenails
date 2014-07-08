@@ -4,6 +4,7 @@ email: info@fenails.com
 description: "Fenails: feminist nail wraps from artist Phoebe Davies, available on your local high street"
 baseurl: ""
 url: "http://www.fenails.com"
+username: fenails_london
 
 # Build settings
 markdown: kramdown
