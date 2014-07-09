@@ -138,7 +138,6 @@ a:visited { color: #205caa; }
 
 .page-content {
   padding: 10px 0;
-  background-color: #fff;
 }
 
 
@@ -168,10 +167,20 @@ a:visited { color: #205caa; }
   margin: 60px auto auto 30px;
   height: 30%;
   width: 30%;
-  padding-left: 10px;
+  padding-left: 20px;
   background-color: #934648;
-  display: inline-block;
+  display: block;
 }
+
+.infoblock h1
+{
+  font-family: Helvetica;
+  font-size: 3em;
+}
+
+.infoblock a { 
+  color: white;
+  }
 
 .infoblock ul {
     font-size: 1em;
@@ -346,6 +355,10 @@ a:visited { color: #205caa; }
 
 @media screen and (max-width: 750px) {
 
+    body {
+    background-position: center; 
+  }
+
   .footer-col-1 { width: 50%; }
 
   .footer-col-2 {
@@ -365,7 +378,21 @@ a:visited { color: #205caa; }
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
+
+  body {
+    background-position: center; 
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  li {
+        display: block;
+        padding: 10px;
+        font-size: 14px;
+      }
 
   .wrap { padding: 0 12px; }
 
